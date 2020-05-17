@@ -2,3 +2,8 @@
 # emails. The parse method on the class should separate them into
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
+
+# avi_test = EmailAddressParser.new("avi@test.com arel@test.com")
+# email_addresses = EmailAddressParser.new("john@doe.com, person@somewhere.org")
+# double = EmailAddressParser.new("avi@test.com, avi@test.com")
+# space_email = EmailAddressParser.new("avi@test.com, arel@test.com test@avi.com, test@arel.com")
